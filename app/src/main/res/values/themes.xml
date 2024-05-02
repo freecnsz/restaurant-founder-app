@@ -1,0 +1,8 @@
+<resources>
+    <style name="Base.Theme.WhereToEat" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+    </style>
+
+    <style name="Theme.WhereToEat" parent="Base.Theme.WhereToEat" />
+</resources>
