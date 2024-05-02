@@ -3,8 +3,8 @@
 ## Overview
 The Restaurant Finder App is a mobile application designed to help users discover nearby restaurants, view their rankings, and manage their profiles. It leverages the Google Maps APIs for location-based services and integrates Firebase for user authentication. The app is built using Kotlin programming language and developed in Android Studio.
 
-![App Logo](screenshots/icon.png)
 
+<img src="screenshots/icon.png" width="250">
 
 ## Features
 
@@ -53,9 +53,7 @@ Before running this application, make sure you have the following:
 
 ## Screenshots
 
-![Screenshot 1](screenshots/ss1.jpg)
-![Screenshot 2](screenshots/ss2.jpg)
-![Screenshot 3](screenshots/ss3.jpg)
+<img src="screenshots/ss1.jpg" width="250"> <img src="screenshots/ss2.jpg" width="250"> <img src="screenshots/ss3.jpg" width="250"> 
 
 
 ## Contributing
