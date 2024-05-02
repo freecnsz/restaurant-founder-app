@@ -1,83 +1,72 @@
 # Restaurant Finder App
 
-![App Logo](link/to/your/app/logo.png)
+## Overview
+The Restaurant Finder App is a mobile application designed to help users discover nearby restaurants, view their rankings, and manage their profiles. It leverages the Google Maps APIs for location-based services and integrates Firebase for user authentication. The app is built using Kotlin programming language and developed in Android Studio.
 
-Welcome to the Restaurant Finder App! This application aims to revolutionize your dining experience by providing a seamless platform for discovering nearby restaurants, accessing menus, reading user reviews, and much more.
+![App Logo](screenshots/icon.png)
+
 
 ## Features
 
-### Find Nearby Restaurants
-- Utilizes GPS technology to identify your current location.
-- Displays a comprehensive list of restaurants in close proximity.
+- **Nearby Restaurant Search:** Users can search for nearby restaurants based on their current location.
+- **Restaurant Rankings:** Users can view the rankings of restaurants, helping them make informed dining choices.
+- **Profile Management:** Users can manage their profiles within the app, including updating personal information and preferences.
+- **Firebase Authentication:** The app integrates Firebase Authentication for secure user login and registration processes.
 
-### Menu Access
-- Allows users to easily access menus of nearby restaurants.
+## Prerequisites
 
-### User Reviews
-- Empowers users to read and publish reviews about restaurants they have visited.
+Before running this application, make sure you have the following:
 
-### User Authentication
-- Ensures secure access to app features and protects user data.
-- Requires account creation or login using existing credentials.
-
-### Sign-up
-- Provides a simple sign-up process for new users.
-- Collects essential information such as name, email address, and password.
-
-### Login
-- Enables existing users to log in using their registered email address and password.
-
-### User Profiles
-- Offers personalized profiles for logged-in users.
-- Allows users to view and update their information and preferences.
-
-## Screenshots
-
-Here are some screenshots of the app in action:
-
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
-![Screenshot 3](screenshots/screenshot3.png)
+- Android Studio installed on your development machine.
+- Kotlin plugin installed in Android Studio.
+- A Google Cloud Platform account to access the Google Maps APIs.
+- Firebase account for authentication services.
 
 ## Getting Started
 
-To get started with the Restaurant Finder App, follow these steps:
+### Setting up Google Maps API Key
 
-1. **Clone the Repository:**
-    ```
-    git clone https://github.com/your-username/restaurant-finder-app.git
-    ```
+1. Obtain a Google Maps API Key from the [Google Cloud Platform Console](https://console.cloud.google.com/).
+2. Enable the necessary APIs, including the Maps SDK for Android.
+3. Add your API Key to the `google_maps_api.xml` file in the `res/values` directory of your project.
 
-2. **Install Dependencies:**
-    ```
-    cd restaurant-finder-app
-    npm install
-    ```
+### Setting up Firebase Authentication
 
-3. **Run the App:**
-    ```
-    npm start
-    ```
+1. Create a new Firebase project on the [Firebase Console](https://console.firebase.google.com/).
+2. Add your Android app to the Firebase project by following the setup instructions provided.
+3. Download the `google-services.json` file and add it to your project's `app` directory in Android Studio.
+4. Follow the Firebase documentation to set up authentication methods such as email/password, Google sign-in, etc.
 
-## Built With
+## Running the Application
 
-- [React Native](https://reactnative.dev/) - JavaScript framework for building native mobile apps.
-- [Firebase](https://firebase.google.com/) - Backend services for authentication and database management.
+1. Clone this repository to your local machine.
+2. Open the project in Android Studio.
+3. Build the project by clicking on the "Run" button or pressing `Shift + F10`.
+4. Choose an emulator or connect your Android device to run the application.
+
+## Usage
+
+- **Search for Nearby Restaurants:** Use the search feature to discover restaurants near your current location.
+- **View Restaurant Rankings:** Explore the rankings of restaurants to make informed dining decisions.
+- **Manage Profile:** Access the profile section to update personal information and preferences.
+- **Authenticate:** Use Firebase authentication to securely log in and register within the app.
+
+## Screenshots
+
+![Screenshot 1](screenshots/ss1.jpg)
+![Screenshot 2](screenshots/ss2.jpg)
+![Screenshot 3](screenshots/ss3.jpg)
+
 
 ## Contributing
 
-We welcome contributions from the community! Please read [CONTRIBUTING.md](link/to/CONTRIBUTING.md) for details on how to contribute to this project.
-
-## Authors
-
-- [Your Name](link/to/your/website) - Lead Developer
+Contributions are welcome! If you have suggestions for improving the app or want to add new features, please fork the repository and submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](link/to/LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- This app utilizes the Google Maps APIs for location services.
+- Firebase Authentication is used for user authentication and management.
